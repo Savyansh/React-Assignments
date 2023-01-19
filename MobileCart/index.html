@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+    <style>
+      .navbar-inverse {
+        background-color: #005580;
+        background-image: none;
+        background-repeat: no-repeat;
+        color: #ffffff;
+      }
+      .navbar-inverse .navbar-nav > .active > a {
+        color: #ffffff;
+        background-color: transparent;
+      }
+      .navbar-inverse .navbar-nav > li > a:hover {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-header">
+        <button
+          type="button"
+          class="navbar-toggle collapsed"
+          data-toggle="collapse"
+          data-target="#navbar"
+          aria-expanded="false"
+          aria-controls="navbar"
+        >
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Mobile Cart</a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="Index.html">Home</a></li>
+        </ul>
+        <!--/.nav-collapse -->
+        <ul
+          class="nav navbar-nav navbar-middle"
+          style="color: white; margin-right: 30px"
+        >
+          <li>
+            <a href="Cart.html"
+              ><span
+                class="glyphicon glyphicon-shopping-cart"
+                style="color: white"
+              ></span
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div
+      style="
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 8rem;
+      "
+      id="products"
+    ></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
