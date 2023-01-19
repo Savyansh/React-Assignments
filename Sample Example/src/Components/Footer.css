@@ -1,0 +1,22 @@
+.footer {
+    box-shadow: 1.5px 1.5px 1px gray;
+    background-color: white;
+    margin-top: 1rem;
+    padding: .1rem 0;
+    display: flex;
+   
+    justify-content: space-between;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-items: flex-end;
+}
+
+footer ul li {
+    font-size: small;
+    font-weight: 500;
+    margin: 0 10px;
+}

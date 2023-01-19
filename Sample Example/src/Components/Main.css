@@ -1,0 +1,73 @@
+.section-1 {
+  margin-top: 1rem;
+  border: 0.5rem solid white;
+  height: 280px;
+  box-shadow: 1.5px 1.5px 1px gray;
+}
+.section-1 img {
+  width: 100%;
+  height: 100%;
+}
+.section-2 {
+    width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.section-2 .card {
+  box-shadow: 1.5px 1.5px 1px gray;
+  background-color: white;
+  margin: 5px;
+  padding: 10px;
+}
+.section-2 .card img {
+  width: 100%;
+  height: 150px;
+}
+.section-2 .card p {
+  font-size: smaller;
+  text-align: center;
+}
+.section-2 .card a {
+  text-decoration: none;
+  float: right;
+  color: black;
+  font-size: smaller;
+}
+.section-3 {
+  background-color: white;
+  display: flex;
+  margin-top: 1rem;
+  box-shadow: 1.5px 1.5px 1px gray;
+}
+.left-col {
+  width: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+}
+.left-col img {
+  width: 46.8%;
+  margin: 3px;
+}
+.right-col {
+  width: 72%;
+  padding: 15px;
+}
+.right-col h3 {
+  margin-top: -4px;
+}
+.right-col p {
+  font-size: smaller;
+}
+.right-col p span {
+  background-color: white;
+  width: 50px;
+  display: inline-block;
+}
+.right-col a {
+  text-decoration: none;
+  float: right;
+  color: black;
+  font-size: smaller;
+}
